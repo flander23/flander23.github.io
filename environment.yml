@@ -1,0 +1,17 @@
+name: base
+channels:
+  - defaults
+dependencies:
+  - conda
+  - python=3.7
+  - python.app
+  - conda-env
+  - conda-build
+  - conda-verify
+  - _ipyw_jlab_nb_ext_conf
+  - anaconda
+  - anaconda-navigator==1.10.0
+  - navigator-updater
+  - pandas-datareader
+  - nb_conda_kernels
+prefix: /opt/anaconda3
